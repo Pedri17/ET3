@@ -1,59 +1,63 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
 
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Gestión Accion</title>
+<head>
 
-    <link rel="stylesheet" href="Menu.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Gestión Accion</title>
+
+  <link rel="stylesheet" href="Menu.css">
   <link rel="stylesheet" href="UserMangement.css">
 
 
-    <script type="text/javascript" src="./js/config.js"></script>
-    <script type="text/javascript" src="./js/accion.js"></script>
-    <script type="text/javascript" src="./locale/idioma.js"></script>
-    <script type="text/javascript" src="./locale/Lang_ES.js"></script>
-    <script type="text/javascript" src="./locale/Lang_EN.js"></script>
-    <script type="text/javascript" src="./locale/Lang_GA.js"></script>
-    <script type="text/javascript" src="./js/validacionesComunes.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="./js/md5.js"></script>
-  </head>
-  <body onload="incluircabecera();ponerinvisibleerror();ponerinvisibleformaccion();setLang();devolveraccionajax();esta_autenticado();">
- 
-    <h1 class="pagina_accion_wellcome"></h1>
-   //aaaaaaaaaa
-     <div id='id_caja_superior'>
-    </div>
-    <div >
-   
-      <button  class="btndesconectar titulo_desconectar" onclick="window.location.href = 'login.html';"></button>
-    
-    </div>
-    <div id='id_caja_error'>
-      <div id='id_texterror'></div><img src="./images/cerrar3.jpg" width="50" height="50" onclick="cerrarMensajeKO();"/>
-    </div>
-    <div class="imgADDSEARCH"> 
+  <script type="text/javascript" src="./js/config.js"></script>
+  <script type="text/javascript" src="./js/accion.js"></script>
+  <script type="text/javascript" src="./locale/idioma.js"></script>
+  <script type="text/javascript" src="./locale/Lang_ES.js"></script>
+  <script type="text/javascript" src="./locale/Lang_EN.js"></script>
+  <script type="text/javascript" src="./locale/Lang_GA.js"></script>
+  <script type="text/javascript" src="./js/validacionesComunes.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="./js/md5.js"></script>
+</head>
+
+<body
+  onload="incluircabecera();ponerinvisibleerror();ponerinvisibleformaccion();setLang();devolveraccionajax();esta_autenticado();">
+
+  <h1 class="pagina_accion_wellcome"></h1>
+  //kkkkkkkkkkkkkkk
+  <div id='id_caja_superior'>
+  </div>
+  <div>
+
+    <button class="btndesconectar titulo_desconectar" onclick="window.location.href = 'login.html';"></button>
+
+  </div>
+  <div id='id_caja_error'>
+    <div id='id_texterror'></div><img src="./images/cerrar3.jpg" width="50" height="50" onclick="cerrarMensajeKO();" />
+  </div>
+  <div class="imgADDSEARCH">
     <img src='./images/add4.png' height="80" width="80" onclick="crearformADDaccion();">
     <img src='./images/search4.png' height="60" width="60" onclick="crearformSEARCHaccion();">
   </div>
-    
-      <div class="Tablaybtn">
-        <nav class="menuNav">
-          <h1 class="pagina_menu"></h1>
-          <a href="gestionusuario.html" class="btnMenu"><label class="titulo_gestionusuario "></label></a>
-          <a href="gestionpersona.html" class="btnMenu"><label class="titulo_gestionpersona "></label></a>
-          <a href="gestionrol.html" class="btnMenu"><label class="titulo_rol"></label></a>
-          <a href="gestionfuncionalidad.html" class="btnMenu"><label class="titulo_funcionalidad "></label></a>
-          <a href="gestionaccion.html" class="btnMenu"><label class="titulo_accion "></label></a>
-          <a href="gestionrolaccionfuncionalidad.html" class="btnMenu"><label
-              class="titulo_rolaccionfuncionalidad "></label></a>
-          <a href="cambiocontrasena.html" class="btnMenu"><label class="titulo_cambiocontrasena menubtn"></label></a>
-    
-        </nav>
-        <div>
+
+  <div class="Tablaybtn">
+    <nav class="menuNav">
+      <h1 class="pagina_menu"></h1>
+      <a href="gestionusuario.html" class="btnMenu"><label class="titulo_gestionusuario "></label></a>
+      <a href="gestionpersona.html" class="btnMenu"><label class="titulo_gestionpersona "></label></a>
+      <a href="gestionrol.html" class="btnMenu"><label class="titulo_rol"></label></a>
+      <a href="gestionfuncionalidad.html" class="btnMenu"><label class="titulo_funcionalidad "></label></a>
+      <a href="gestionaccion.html" class="btnMenu"><label class="titulo_accion "></label></a>
+      <a href="gestionrolaccionfuncionalidad.html" class="btnMenu"><label
+          class="titulo_rolaccionfuncionalidad "></label></a>
+      <a href="cambiocontrasena.html" class="btnMenu"><label class="titulo_cambiocontrasena menubtn"></label></a>
+
+    </nav>
+    <div>
       <table id='id_tablaUsuarios' border='1'>
-        <thead>    
+        <thead>
           <th class="id_accion">
           </th>
           <th class="nombre_accion">
@@ -76,23 +80,24 @@
       </button>
     </div>
   </div>
-    <div id='id_caja_formulario_accion'>
-      <form id='id_form_accion' name='form_accion'  method='post'>
+  <div id='id_caja_formulario_accion'>
+    <form id='id_form_accion' name='form_accion' method='post'>
 
-        <label class="id_accion"></label>
-        <input type='number' id='id_id_accion' name='id_accion'></input>
-        <br>
-        <label class="nombre_accion"></label>
-        <input type='text' id='id_nombre_accion' name='nombre_accion'></input>
-        <br>
-        <label class="descrip_accion"></label>
-        <input type='text' id='id_descrip_accion' name='descrip_accion'></input>
-        <br>
-        
-        
-      </form>
-     
-    </div>
-     <a href="menu.html"><label class="titulo_volver"></label></a>
-  </body>
+      <label class="id_accion"></label>
+      <input type='number' id='id_id_accion' name='id_accion'></input>
+      <br>
+      <label class="nombre_accion"></label>
+      <input type='text' id='id_nombre_accion' name='nombre_accion'></input>
+      <br>
+      <label class="descrip_accion"></label>
+      <input type='text' id='id_descrip_accion' name='descrip_accion'></input>
+      <br>
+
+
+    </form>
+
+  </div>
+  <a href="menu.html"><label class="titulo_volver"></label></a>
+</body>
+
 </html>
