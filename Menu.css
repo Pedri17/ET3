@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'SFPD-Regular';
+    src: url('./fonts/SFProDisplay-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'SFPD-Heavy';
+    src: url('./fonts/SFProDisplay-Medium.ttf');
+}
+
+body{
+    padding: 1%;
+    font-family: 'SFPD-Regular';
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    grid-template-rows: auto auto auto auto auto;
+}
+
+.menuNavInicial {
+    left: 0;
+    top: 2rem;
+    width: 210px;
+    border: 1px transparent #348efe;
+    border-radius: 10px;
+    margin-top: 5rem;
+}
+
+.MenuPadre{
+    border-radius: 10px;
+}
+
+.pagina_menu {
+    font-family: 'SFPD-Heavy';
+    color: rgb(97, 172, 11);
+    margin-top: 0;
+    border-radius: 10px;
+}
+
+h1 {
+    border: 2px solid #348efe;
+    padding-left: 1rem;
+}
+
+.btnMenu {
+    border: 1px solid #9dd1ff;
+    border-radius: 10px;
+    color: #348efe;
+    display: inline-block;
+    padding: 15px 35px;
+    text-decoration: none;
+    margin: 5px 0px;
+    transition: background-color 200ms ease-in-out;
+}
+
+.btnMenu:hover,
+.btnMenu:focus {
+    background-color: #269aff;
+    color: white;
+}
+
+

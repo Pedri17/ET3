@@ -1,0 +1,99 @@
+h1 {
+    color: rgb(255, 0, 0);
+    position: relative;
+    top: 10%;
+    left: 38%;
+    margin-right: -50%;
+}
+
+.center {
+    
+    position: relative;
+   
+    top: 10%;
+    left: 38%;
+    margin-right: -50%;
+}
+
+    
+    
+
+
+@media (min-width: 400px) and (max-width: 600px) {}
+
+.btnLog {
+    background-color: rgb(44, 44, 44);
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+}
+
+#id_caja_superior {
+    color: rgb(255, 0, 0);
+
+ 
+    top: 0px;
+    left: 0px;
+    margin: 10px;
+    margin-left: 40px;
+  
+}
+
+.btnVolver {
+    background-color: white;
+    border: 2px solid black;
+    color: green;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    top: 0px;
+    left: 0px;
+    margin: 10px;
+    margin-left: 40px;
+    cursor: pointer;
+    text-decoration: none;
+
+
+
+}
+
+
+
+.btnReg {
+    background-color: white;
+    border: 2px solid black;
+    color: green;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 30px;
+    cursor: pointer;
+    text-decoration: none;
+
+
+}
+
+#id_caja_error {
+    
+   /* bottom: 0;
+    left: 100%;
+    width: fit-content;*/
+
+}
+.cajaserror {
+    
+   color: red;
+
+}
+
+#id_form_login {
+    position: relative;
+
+
+}

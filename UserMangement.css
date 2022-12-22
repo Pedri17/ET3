@@ -1,0 +1,184 @@
+.imgADDSEARCH{
+    padding: 5%;
+    grid-column: 4;
+    grid-row: 2;
+    justify-self: right;
+}
+
+.menuNav {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    justify-self: center;
+    align-self: center;
+    margin-right: 100px;
+    position: relative;
+    width: 210px;
+    border: 1px transparent #348efe;
+    max-height: 560px;
+}
+
+#id_caja_formulario_usuario{
+    margin-left: 6%;
+    grid-column: 1/4;
+    grid-row: 2;
+}
+
+.Tablaybtn{
+    grid-column: 2/5;
+    grid-row: 3;
+    justify-self: center;
+    align-self: center;
+}
+
+h1,
+.pagina_usuario_wellcome {
+    grid-column: 1/5;
+    grid-row: 1;
+    justify-self: center;
+    padding: 5px;
+    font-family: 'SFPD-Heavy';
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgb(97, 172, 11);
+    color: rgb(97, 172, 11);
+
+}
+
+#id_caja_superior {
+    grid-row: 1;
+    grid-column: 1;
+    color: #348efe;
+    width: 210px;
+    top: 70px;
+    left: 0px;
+    margin: 30px 10px;
+    margin-left: 50px;
+}
+
+
+
+#id_form_usuario{
+    padding: 5px;
+    width: auto;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #9dd1ff;
+}
+
+form *{
+    font-family: 'SFPD-Regular';
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+    color: #348efe;
+    border-color: #9dd1ff;
+}
+
+form label, select{
+    margin-bottom: 1px;
+    border: transparent;
+}
+
+#id_tabla_idiomas td{
+    border: transparent;
+}
+
+table{
+    border: transparent;
+    border-radius: 10px;
+}
+
+td, th{
+    padding: 5px;
+    color: #348efe;
+    border-color: #9dd1ff;
+    border-width: 1px;
+    border-style: solid;
+    transition: background-color 200ms ease-in-out;
+}
+
+
+thead th:first-child, thead th:nth-last-child(3), tbody td:first-child, tbody td:nth-last-child(3){
+    border-radius: 10px 0px 0px 10px;
+}
+
+thead th:nth-last-child(4), thead th:last-child, tbody td:nth-last-child(4), tbody td:last-child{
+    border-radius: 0px 10px 10px 0px;
+}
+
+
+tr td:nth-last-child(3):hover, tr td:nth-last-child(1):hover, tr td:nth-last-child(2):hover{
+    background-color: #348efe;
+    color: white;
+}
+
+tr td:nth-last-child(3):active, tr td:nth-last-child(1):active, tr td:nth-last-child(2):active{
+    background-color: #9dd1ff;
+    color: white;
+}
+
+
+.btnVolver {
+    grid-row: 5;
+    grid-column: 1/5;
+    justify-self: center;
+    width: 20%;
+    background-color: white;
+    border: 2px solid black;
+    color: rgb(97, 172, 11);
+    border-color: rgb(97, 172, 11);
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 150px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 200ms ease-in-out;
+}
+
+.btnVolver:hover {
+    background-color: rgb(97, 172, 11);
+    color: white;
+}
+
+.btnVolver:active {
+    background-color: rgb(157, 232, 71);
+    color: white;
+}
+
+#div_boton_desconectar{
+    grid-row: 1;
+    grid-column: 4;
+    justify-self: right;
+}
+
+.btndesconectar {
+    font-family: 'SFPD-Regular';
+    background-color: white;
+    border: 2px solid black;
+    color: red;
+    padding: 5px 20px;
+    text-align: left;
+    border-radius: 10px;
+    border-color: red;
+    margin: 0px 35px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 200ms ease-in-out;
+}
+
+
+.btndesconectar:hover {
+    background-color: red;
+    border: 2px solid red;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border-color: red;
+    margin: 0px 35px;
+    cursor: pointer;
+    text-decoration: none;
+}

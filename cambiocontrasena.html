@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <link rel="stylesheet" type="text/css" href="Test.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Contrasena</title>
+    <script type="text/javascript" src="./js/config.js"></script>
+    <script type="text/javascript" src="./js/usuario.js"></script>
+    <script type="text/javascript" src="./js/Login.js"></script>
+    <script type="text/javascript" src="./js/registrar.js"></script>
+    <script type="text/javascript" src="./js/cambiocontrasena.js"></script>
+    <script type="text/javascript" src="./js/validacionesComunes.js"></script>
+    <script type="text/javascript" src="./js/md5.js"></script>
+    <script type="text/javascript" src="./locale/idioma.js"></script>
+    <script type="text/javascript" src="./locale/Lang_ES.js"></script>
+    <script type="text/javascript" src="./locale/Lang_EN.js"></script>
+    <script type="text/javascript" src="./locale/Lang_GA.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  </head>
+  <body onload="incluircabecera();ponerinvisibleerror();setLang();esta_autenticado();SEARCHdniAjax();crearformSEARCHusuario();ponerinvisibleformuser();">
+
+    
+    <div id='id_caja_superior'>
+    </div>
+    <br>
+    <h1 class="pagina_contrasena"></h1>
+    <div class="center">
+    
+    <form id='id_form_cambiocontrasena' name='form_cambiocontrasena' action='javascript:cambiocontrasena();' onsubmit= 'return comprobar_form_cambiocontrasena()' method='post'>
+      <div id='id_caja_error'>
+        <div id='id_texterror'></div><img src="./images/cerrar3.jpg" width="50" height="50" onclick="cerrarMensajeKO();"/>
+      </div>
+
+     <label class="contrasenanueva"></label>
+      <input type='password' id='id_contrasena' name='contrasena' onblur='comprobar_password("id_contrasena");'></input>
+      <br>
+
+      <label class="contrasenanueva"></label>
+      <input type='password' id='id_passwordComp' name='contrasenaComp' onblur='comprobar_password("id_passwordComp");'></input>
+      <br>
+      
+      <label class="dni" id='caja_dni'></label>
+       <br>
+       <br>
+       <button class="btnReg titulo_enviar" onclick=submit></button>
+       <button class="btnVolver titulo_volver" onclick="window.location.href = 'menu.html';">
+        Volver
+      </button>
+    </form>
+    
+   
+    <div id='id_caja_formulario_user'>
+      <form id='id_form_user' name='form_user'  method='post'>
+        <label class="usuario"></label>
+        <input type='text' id='id_usuario' name='usuario'></input>     
+      </form>
+
+     
+    </div>
+  </div>
+<br>
+
+  </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Menu</title>
+  <link rel="stylesheet" href="Menu.css">
+  <link rel="stylesheet" href="UserMangement.css">
+  <script type="text/javascript" src="./js/Login.js"></script>
+  <script type="text/javascript" src="./js/persona.js"></script>
+  <script type="text/javascript" src="./js/usuario.js"></script>
+  <script type="text/javascript" src="./js/registrar.js"></script>
+  <script type="text/javascript" src="./js/validacionesComunes.js"></script>
+  <script type="text/javascript" src="./js/md5.js"></script>
+  <script type="text/javascript" src="./locale/idioma.js"></script>
+
+  <script type="text/javascript" src="./locale/Lang_ES.js"></script>
+  <script type="text/javascript" src="./locale/Lang_EN.js"></script>
+  <script type="text/javascript" src="./locale/Lang_GA.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body onload="setLang();incluircabecera();esta_autenticado();">
+
+
+  <div id='id_caja_superior'>
+   
+    
+  
+  </div>
+  <div >
+   
+    <button  class="btndesconectar titulo_desconectar" onclick="window.location.href = 'login.html';"></button>
+  
+  </div>
+
+  <div class="MenuPadre">
+  <nav class="menuNavInicial">
+    <h1 class="pagina_menu"></h1>
+    <a href="gestionusuario.html" class="btnMenu"><label class="titulo_gestionusuario "></label></a>
+    <a href="gestionpersona.html" class="btnMenu"><label class="titulo_gestionpersona "></label></a>
+    <a href="gestionrol.html" class="btnMenu"><label class="titulo_rol"></label></a>
+    <a href="gestionfuncionalidad.html" class="btnMenu"><label class="titulo_funcionalidad "></label></a>
+    <a href="gestionaccion.html" class="btnMenu"><label class="titulo_accion "></label></a>
+    <a href="gestionrolaccionfuncionalidad.html" class="btnMenu"><label
+        class="titulo_rolaccionfuncionalidad "></label></a>
+    <a href="cambiocontrasena.html" class="btnMenu"><label class="titulo_cambiocontrasena menubtn"></label></a>
+  </nav>
+</div>
+
+
+
+</body>
+
+</html>

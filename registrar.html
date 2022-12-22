@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <link rel="stylesheet" type="text/css" href="Test.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Registrar</title>
+    <script type="text/javascript" src="./js/Login.js"></script>
+    <script type="text/javascript" src="./js/persona.js"></script>
+    <script type="text/javascript" src="./js/usuario.js"></script>
+    <script type="text/javascript" src="./js/registrar.js"></script>
+    <script type="text/javascript" src="./js/validacionesComunes.js"></script>
+    <script type="text/javascript" src="./js/md5.js"></script>
+    <script type="text/javascript" src="./locale/idioma.js"></script>
+    <script type="text/javascript" src="./locale/Lang_ES.js"></script>
+    <script type="text/javascript" src="./locale/Lang_EN.js"></script>
+    <script type="text/javascript" src="./locale/Lang_GA.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  </head>
+  <body onload="incluircabecera();ponerinvisibleerror();setLang();">
+    
+    <div id='id_caja_superior'>
+    </div>
+   
+    <h1 class="pagina_registrar"></h1>
+    
+    
+    <div class="center">
+    <form id='id_form_registrar' name='form_registrar' action='javascript:registrar();' onsubmit= 'return comprobar_form_registrar()' method='post'>
+      <div id='id_caja_error'>
+        <div id='id_texterror'></div><img src="./images/cerrar3.jpg" width="50" height="50" onclick="cerrarMensajeKO('id_caja_error','id_texterror');"/>
+      </div>
+      <label class="dni"></label>
+       <input type='text' id='id_dni' name='dni' onblur='comprobar_dni();'></input>
+       <div id='id_caja_error_dni'> <div id='id_texterror_dni'></div>  </div>
+      <br>
+        <label class="nombre_persona"></label>
+        <input type='text' id='id_nombre_persona' name='nombre_persona' onblur='comprobar_nombre();'></input>
+        <div id='id_caja_error_nombre'> <div id='id_texterror_nombre'></div>  </div>
+        <br>
+         <label class="apellidos_persona"></label>
+        <input type='text' id='id_apellidos_persona' name='apellidos_persona'onblur='comprobar_apellido();'></input>
+        <div id='id_caja_error_apellido'> <div id='id_texterror_apellido'></div>  </div>
+        <br>
+        <label class="fechaNacimiento_persona"></label>
+        <input type='date' id='id_fechaNacimiento_persona' name='fechaNacimiento_persona' ></input>
+        <div id='id_caja_error_fechanac'> <div id='id_texterror_fechanac'></div>  </div>
+        <br>
+        <label class="direccion_persona"></label>
+        <input type='text' id='id_direccion_persona' name='direccion_persona' onblur='comprobar_direccion();'></input>
+        <div id='id_caja_error_direccion'> <div id='id_texterror_direccion'></div>  </div>
+        <br>
+        <label class="telefono_persona"></label>
+        <input type='text' id='id_telefono_persona' name='telefono_persona' onblur='comprobar_telefono();'></input>
+        <div id='id_caja_error_telefono'> <div id='id_texterror_telefono'></div>  </div>
+        <br>
+        <label class="email_persona"></label>
+        <input type='text' id='id_email_persona' name='email_persona'onblur='comprobar_email();'></input>
+        <div id='id_caja_error_email'> <div id='id_texterror_email'></div>  </div>
+        <br>
+        <label class="foto_persona"></label>
+        <input type='text' id='id_foto_persona' name='foto_persona' onblur='comprobar_foto();' ></input>
+        <div id='id_caja_error_foto'> <div id='id_texterror_foto'></div>  </div>
+        <br>
+      <label class="usuario"> </label>
+      <input type='text' id='id_usuario' name='usuario' onblur='comprobar_usuario();'></input>
+      <div id='id_caja_error_user'> <div id='id_texterror_user'></div>  </div>
+      
+      <br>
+      <label class="contrasena"></label>
+      <input type='password' id='id_password' name='contrasena' onblur='comprobar_password("id_password");'></input>
+      <div  id='id_caja_error_contrasena'> <div class="cajaserror" id='id_texterror_contrasena'></div>  </div>
+      <br>
+      <label class="contrasenaComp"></label>
+      <input type='password' id='id_passwordComp' name='contrasenaComp' onblur='comprobar_password("id_passwordComp");'></input>
+      <div  id='id_caja_error_contrasenaComp'> <div class="cajaserror" id='id_texterror_contrasenaComp'></div>  </div>
+      <br>
+      
+      <button class="btnReg titulo_registrar" onclick=submit>
+        Register
+      </button>
+      <button class="btnVolver titulo_volver" onclick="window.location.href = 'login.html';">
+        Volver
+      </button>
+     
+  
+    </form>
+    
+
+  </div>
+    
+  </div>
+  </body>
+</html>

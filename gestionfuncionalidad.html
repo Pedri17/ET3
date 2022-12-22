@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Gestión funcionalidad</title>
+
+    <link rel="stylesheet" href="Menu.css">
+    <link rel="stylesheet" href="UserMangement.css">
+
+    <script type="text/javascript" src="./js/config.js"></script>
+    <script type="text/javascript" src="./js/funcionalidad.js"></script>
+    <script type="text/javascript" src="./js/rol.js"></script>
+    <script type="text/javascript" src="./js/accion.js"></script>
+    <script type="text/javascript" src="./locale/idioma.js"></script>
+    <script type="text/javascript" src="./locale/Lang_ES.js"></script>
+    <script type="text/javascript" src="./locale/Lang_EN.js"></script>
+    <script type="text/javascript" src="./locale/Lang_GA.js"></script>
+    <script type="text/javascript" src="./js/validacionesComunes.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./js/md5.js"></script>
+  </head>
+  <body onload="incluircabecera();ponerinvisibleerror();ponerinvisibleformfuncionalidad();setLang();devolverfuncionalidadesajax();esta_autenticado();">
+ 
+    <h1 class="pagina_funcionalidad_wellcome"></h1>
+
+    <div id='id_caja_superior'>
+    </div>
+    <div >
+   
+      <button  class="btndesconectar titulo_desconectar" onclick="window.location.href = 'login.html';"></button>
+    
+    </div>
+    <div id='id_caja_error'>
+      <div id='id_texterror'></div><img src="./images/cerrar3.jpg" width="50" height="50" onclick="cerrarMensajeKO();"/>
+    </div>
+    <div class="imgADDSEARCH">
+    <img src='./images/add4.png' height="80" width="80" onclick="crearformADDfuncionalidad();">
+    <img src='./images/search4.png' height="60" width="60" onclick="crearformSEARCHfuncionalidad();">
+  </div>
+  <div class="Tablaybtn">
+    <nav class="menuNav">
+      <h1 class="pagina_menu"></h1>
+      <a href="gestionusuario.html" class="btnMenu"><label class="titulo_gestionusuario "></label></a>
+      <a href="gestionpersona.html" class="btnMenu"><label class="titulo_gestionpersona "></label></a>
+      <a href="gestionrol.html" class="btnMenu"><label class="titulo_rol"></label></a>
+      <a href="gestionfuncionalidad.html" class="btnMenu"><label class="titulo_funcionalidad "></label></a>
+      <a href="gestionaccion.html" class="btnMenu"><label class="titulo_accion "></label></a>
+      <a href="gestionrolaccionfuncionalidad.html" class="btnMenu"><label
+          class="titulo_rolaccionfuncionalidad "></label></a>
+      <a href="cambiocontrasena.html" class="btnMenu"><label class="titulo_cambiocontrasena menubtn"></label></a>
+
+    </nav>
+    <div>
+       <table id='id_tablaFuncionalidad' border='1'>
+        <thead>    
+          <th class="id_funcionalidad">
+          </th>
+          <th class="nombre_funcionalidad">
+          </th>
+          <th class="descrip_funcionalidad">
+          </th>
+          <th class="titulo_edit">
+          </th>
+          <th class="titulo_delete">
+          </th>
+          <th class="titulo_showcurrent">
+          </th>
+        </thead>
+        <tbody id='id_datosfuncionalidad'>
+        </tbody>
+      </table>
+      <button class="btnVolver titulo_volver" onclick="window.location.href = 'menu.html';">
+        Volver
+      </button>
+    </div>
+  </div>
+    <div id='id_caja_formulario_funcionalidad'>
+      <form id='id_form_funcionalidad' name='form_funcionalidad' method='post'>
+
+        <label class="id_funcionalidad"></label>
+        <input type='number' id='id_id_funcionalidad' name='id_funcionalidad'></input>
+        <br>
+        <label class="nombre_funcionalidad"></label>
+        <input type='text' id='id_nombre_funcionalidad' name='nombre_funcionalidad'></input>
+        <br>
+        <label class="descrip_funcionalidad"></label>
+        <input type='text' id='id_descrip_funcionalidad' name='descrip_funcionalidad'></input>
+        <br>
+        
+        
+      </form>
+     
+    </div>
+     <a href="menu.html"><label class="titulo_volver"></label></a>
+  </body>
+</html>

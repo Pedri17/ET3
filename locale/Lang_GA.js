@@ -1,0 +1,178 @@
+arrayGA={
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+		
+		'pagina_usuario_wellcome' : 'Xestión de usuario',
+		'pagina_persona_wellcome' : 'Xestión de persoa',
+		'pagina_rol_wellcome' : 'Xestión de rol',
+		'pagina_accion_wellcome' : 'Xestión de accion',
+		'pagina_funcionalidad_wellcome' : 'Xestión de funcionalidade',
+		'pagina_rolaccionfuncionalidad_wellcome' : 'Xestión de rolaccionfuncionalidad',
+		'pagina_menu' : 'Menu',
+		'pagina_contrasena' : 'Cambio de contrasinal',
+		'dni' : 'DNI', 
+		'nombre_persona' : 'nome',
+		'apellidos_persona' : 'apelidos',
+		'fechaNacimiento_persona' : 'fecha nacemento',
+		'direccion_persona' : 'direccion',
+		'telefono_persona' : 'telefono',
+		'email_persona' : 'email',
+		'foto_persona' : 'foto',
+		'pagina_login' : 'Páxina de Login',
+		'usuario' : 'usuario',
+		'contrasena' : 'contrasinal',
+		'contrasenaComp' : 'contrasinal',
+		'id_rol' : 'id rol',
+		'pagina_registrar' : 'Rexistrarse',
+		'pagina_inicio' : 'Inicio',
+		'rol_name' :'nome do rol',
+		'rol_descripcion' :'descripcion do rol',
+		'nombre_rol' :'rol nome',
+		'descrip_rol' :'rol descripcion',
+		'id_accion':'id accion ',
+		'nombre_accion' :'nome accion',
+		'descrip_accion' :'descripcion accion',	
+		'id_funcionalidad':'id funcionalidade ',
+		'nombre_funcionalidad' :'nomre funcionalidade',
+		'descrip_accion' :'descripcion funcionalidade',	
+		'funcionalidad' :'funcionalidade',
+		'accion':'accion ',	
+		'contrasenaantigua':'Contrasinal antiga ',	
+		'contrasenanueva':'Contrasinal nova ',	
+		'titulo_enviar':'enviar ',
+		'titulo_desconectar':'Desconectar ',
+
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////acciones////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+		//Codigos acciones
+		'titulo_edit' : 'Editar',
+		'titulo_delete' : 'Borrar', 
+		'titulo_showcurrent' : 'Detalle',
+		'titulo_desconectar' : 'Desconectarse',
+		'titulo_registrar' : 'Rexistrarse',
+		'titulo_gestionusuario' : 'Xestión usuarios',
+		'titulo_gestionpersona' : 'Xestión persoas',
+		'titulo_login' : 'Login',
+		'titulo_volver' : 'Volver',
+		'titulo_rol' : 'Xestión Rol',
+		'titulo_accion' : 'Xestión Acción',
+		'titulo_funcionalidad' : 'Xestión Funcionalidade',
+		'titulo_cambiocontrasena' : 'Cambiar contrasinal',
+		'titulo_rolaccionfuncionalidad':'Xestion Rolaccionfuncionalidade ',
+
+
+		'add_rolaccionfuncionalidad_OK':'permiso insertado con éxito',
+		'delete_rolaccionfuncionalidad_OK':'permiso borrado con éxito',
+
+        'add_usuario_OK':' usuario insertado con éxito',
+		'delete_usuario_OK':' usuario borrado con éxito',
+		'edit_usuario_OK' : ' usuario  modificado con éxito',
+
+		'add_persona_OK':'persona insertada con éxito',
+		'delete_persona_OK':'persona borrada con éxito',
+		'edit_persona_OK' : 'persona  modificada con éxito',
+
+		'add_rol_OK':'rol  insertada con éxito',
+		'delete_rol_OK':'rol borrada con éxito',
+		'edit_rol_OK' : 'rol  modificada con éxito',
+
+		'add_accion_OK':'accion insertada con éxito',
+		'delete_accion_OK':'accion borrada con éxito',
+		'edit_accion_OK' : 'accion modificada con éxito',
+
+		'add_funcionalidad_OK':'funcionalidade insertada con éxito',
+		'delete_funcionalidad_OK':'funcionalidade borrada con éxito',
+		'edit_funcionalidad_OK' : 'funcionalidade modificada con éxito',
+
+
+
+		'no_puede_borrar_funcionalidades_admin' : 'non se poden borrar funcionalidades admin',
+		'no_puede_editar_funcionalidades_admin' : 'non se poeden editar funcionalidades admin',
+
+		'no_puede_borrar_acciones_admin' : 'non se poden borrar accions admin',
+		'no_puede_editar_acciones_admin' : 'non se poden editar accions admin',
+		
+
+		'dni_NO_EXISTE_en_persona_KO':'Non hai ningunha persoa con ese dni',
+
+
+	
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////Errores////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+		//Códigos
+		'usuario_corto_ko': 'Tamaño login demasiado corto (min 3 caracteres)GA',
+		'usuario_largo_ko': 'Tamaño login demasiado largo (max 15 caracteres)GA',
+		'usuario_formato_ko': 'O login contén carecteres non permitidos (solo letras sen acentos e números)',
+		'dni_corto_ko': 'Tamaño dni demasiado corto (8 numeros y 1 letra)GA',
+		'dni_largo_ko': 'Tamaño dni demasiado largo (8 numeros y 1 letra)GA',
+		'dni_8numIniciales_ko': 'O dni debe contener 8 dixitos inciais (8 numeros y 1 letra)',
+		'dni_letrafinal_ko': 'O dni debe contener unha letra ao final  (8 numeros y 1 letra)',
+		'dni_formato_ko': 'O formato do dni e incorrecto (letra incorrecta)',
+		'dni_solo1letra_ko': 'O dni ten que ter a letra ao final',
+		'dni_caracteres_ko': 'O dni solo pode ter 8 letras sen acento e numeros',
+		'dni_letraAlFinal_ko': 'O dni ten que tener a letra ao final ',
+		'idroll_corto_ko': 'Tamaño id_roll demasiado corto (min 1 caracteres)GA',
+		'idroll_largo_ko': 'Tamaño id_roll demasiado largo (max 2 caracteres)GA',
+		'idroll_soloNumeros_ko': 'O id_roll conten carecteres non permitidos (solo números de dous digitos)',
+		'contrasena_corto_ko': 'Tamaño contrasinal demasiado corto (min 3 caracteres)',
+		'contrasena_largo_ko': 'Tamaño contrasinal demasiado largo (min 3 caracteres)',
+		'contrasena_formato_ko': 'Tamaño contrasinal conten carecteres non permitidos (solo letras sen acentos e números)',
+		'contrasenaComp_ko': 'Contrasinal non coincide',
+		'USUARIO_LOGIN_KO': 'login usuario incorrecto',
+		'USUARIO_PASS_KO' : ' login contraseña incorrecto ',
+		'RECORDSET_VACIO': 'buscar persona vacio',
+		'nombre_corto_ko': 'Tamaño nome demasiado corto (min 3 caracteres)',
+		'nombre_largo_ko': 'Tamaño nome demasiado largo (max 45 caracteres)',
+		'nombre_formato_ko': 'O nome conten carecteres no permitidos (solo letras con acentos, guion e espacio)',
+		'apellido_corto_ko': 'Tamaño apelido demasiado corto (min 5 caracteres)',
+		'apellido_largo_ko': 'Tamaño apelido demasiado largo (max 100 caracteres)',
+		'apellido_formato_ko': 'O apelido conten carecteres no permitidos (solo letras con acentos, guion e espacio)',
+		'fechanac_formato_ko': 'a fecha de nacimiento ten que ser del tipo (dd/mm/aaaa)',
+		'direccion_corto_ko': 'direccion tamaño moi corto (min 10 characters)',
+		'direccion_largo_ko': 'direccion tamaño moi larga (max 200 characters)',
+		'direccion_formato_ko': 'direccion conten caracteres non permitidos (solo letras con acento,‘/’,’-’,’,’,’º’,‘ª’ e numeros )',
+		'telefono_corto_ko': 'telefono tamaño moi corto (deben ser 9 numeros)',
+		'telefono_largo_ko': 'telefono tamaño moi largo (deben ser 9 numeros)',
+		'telefono_tamano_ko': 'telefono tamaño deben ser 9 numeros ',
+		'telefono_formato_ko': 'telefono invalido (solo numeros comezando por 6,7,8 )',
+		'email_corto_ko': 'email tamaño moi corto (ten que ser 8 carecteres)',
+		'email_largo_ko': 'email tamaño moi largo (ten que ser 8 carecteres)',
+		'email_formato_ko': 'email non ten formato valido (ejemplo@gmail.com)',
+		'foto_corto_ko': 'foto con tamaño moi corto (deben ser 6 carecteres minimo)',
+		'foto_largo_ko': 'foto con tamaño moi largo (deben ser 40 carecteres maximo)',
+		'foto_formato_ko': 'foto con formato invalido (permitense letras sen acento con extension png o jpg)',
+		'idrol_corto_ko' : 'id rol non pode estar vacio',
+		'idrol_largo_ko' :'id rol demasiado largo (deben ser 4 dixitos maximo)',	
+		'idrol_formato_ko':'id rol con formato incorrecto (so se permiten numeros)',
+		'rolname_corto_ko': ' rol name e demasiado corto (deben ser 6 carecteres minimo)',
+		'rolname_largo_ko':'rol name e demasiado largo (deben ser de maximo 48 caracteres )',
+		'rolname_formato_ko':'rol name ten formato incorrecto (solo alfabeticos sen acentos)',
+		'roldescripcion_corto_ko':' rol descripcion e demasiado corto (deben ser 20 carecteres minimo)',
+		'roldescripcion_largo_ko':'rol descripcion e demasiado largo (deben ser de maximo 200 caracteres )',
+		'roldescripcion_formato_ko':'rol descripcion ten formato incorrecto (calquera caracter excepto ‘=<>$#{}[]’ )',
+		'idaccion_corto_ko' : 'id accion non pode estar vacio',
+		'idaccion_largo_ko' :'id accion e demasiado largo (debe ser 4 dixitos maximo)',	
+		'idaccion_formato_ko':'id accion con formato incorrecto (so se permiten numeros)',
+		'nombreaccion_corto_ko': '  nome de accion e demasiado corto (deben ser 6 carecteres minimo)',
+		'nombreaccion_largo_ko':'nome de accion e demasiado largo (deben ser de maximo 48 caracteres )',
+		'nombreaccion_formato_ko':' nome accion ten formato incorrecto (so alfabeticos sin acentos)',
+		'descripaccion_corto_ko':'  descripcion accion  e demasiado corto (deben ser 20 carecteres minimo)',
+		'descripaccion_largo_ko':'descripcion accion e demasiado largo (deben ser de maximo 200 caracteres )',
+		'descripaccion_formato_ko':'descripcion accion ten formato incorrecto (calquera caracter excepto ‘=<>$#{}[]’ )',
+		'idfuncionalidad_corto_ko' : 'id funcionalidad non pode estar vacio',
+		'idfuncionalidad_largo_ko' :'id funcionalidad e demasiado largo (debe ser 4 dixitos maximo)',	
+		'idfuncionalidad_formato_ko':'id funcionalidad con formato incorrecto (so se permiten numeros)',
+		'nombrefuncionalidad_corto_ko': '  nome de funcionalidad e demasiado corto (deben ser 6 carecteres minimo)',
+		'nombrefuncionalidad_largo_ko':'nome de funcionalidad e demasiado largo (deben ser de maximo 48 caracteres )',
+		'nombrefuncionalidad_formato_ko':' nome funcionalidad ten formato incorrecto (so alfabeticos sin acentos)',
+		'descripfuncionalidad_corto_ko':'  descripcion funcionalidad e demasiado corto (deben ser 20 carecteres minimo)',
+		'descripfuncionalidadlargo_ko':'descripcion funcionalidad e demasiado largo (deben ser de maximo 200 caracteres )',
+		'descripfuncionalidad_formato_ko':'descripcion funcionalidad ten formato incorrecto (calquera caracter excepto ‘=<>$#{}[]’ )',
+		'contrasenaantiguanueva_ko':'O contrasinal antigo non podo coincidir co novo',
+}
