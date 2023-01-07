@@ -13,16 +13,16 @@ body{
     font-family: 'SFPD-Regular';
     border-radius: 10px;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto;
     grid-gap: 10px;
-    grid-template-rows: auto auto auto auto auto;
+    grid-template-rows: auto;
 }
 
 .menuNavInicial {
     left: 0;
     top: 2rem;
     width: 210px;
-    border: 1px transparent #348efe;
+    border: 1px solid transparent;
     border-radius: 10px;
     margin-top: 5rem;
 }
@@ -34,8 +34,9 @@ body{
 .pagina_menu {
     font-family: 'SFPD-Heavy';
     color: rgb(97, 172, 11);
-    margin-top: 0;
+    margin: 0;
     border-radius: 10px;
+    width: auto;
 }
 
 h1 {
